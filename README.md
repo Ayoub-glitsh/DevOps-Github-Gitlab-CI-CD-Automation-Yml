@@ -260,6 +260,7 @@ DevOps-Github-Gitlab-CI-CD-Automation-Yml/
 ├── .github/
 │   └── workflows/
 │       └── sync-gitlab.yml          # Main synchronization workflow
+├── img/                        # Images
 ├── README.md                        # This documentation
 ├── LICENSE                          # MIT License
 └── .gitignore                       # Git ignore rules
