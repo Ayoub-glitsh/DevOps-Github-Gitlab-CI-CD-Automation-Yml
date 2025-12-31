@@ -223,135 +223,133 @@ on:
 
   
 
-\### Enable Debug Mode
+### Enable Debug Mode
 
 Add this to your workflow to see detailed logs:
 
-\`\`\`yaml
+```yaml
 
 env:
 
-  ACTIONS\_STEP\_DEBUG: true
+  ACTIONS_STEP_DEBUG: true
 
-  ACTIONS\_RUNNER\_DEBUG: true
-
-\`\`\`
-
-  
-
-\## 📊 Performance Metrics
-
-\- ⏱️ \*\*Average sync time\*\*: 15-30 seconds
-
-\- 📈 \*\*Success rate\*\*: 99.9%
-
-\- 🔄 \*\*Sync frequency\*\*: Real-time on every push
-
-\- 📦 \*\*Data transferred\*\*: Only changes (efficient)
+  ACTIONS_RUNNER_DEBUG: true
+```
 
   
 
-\## 🎯 Use Cases
+## 📊 Performance Metrics
+
+- ⏱️ **Average sync time**: 15-30 seconds
+
+- 📈 **Success rate**: 99.9%
+
+- 🔄 **Sync frequency**: Real-time on every push
+
+- 📦 **Data transferred**: Only changes (efficient)
 
   
 
-\### For Developers
-
-\- Maintain code on both GitHub and GitLab
-
-\- Backup important repositories
-
-\- Share projects across different platforms
-
-\- Migrate gradually between services
+## 🎯 Use Cases
 
   
 
-\### For Teams
+### For Developers
 
-\- Collaboration across different Git platforms
+- Maintain code on both GitHub and GitLab
 
-\- Disaster recovery strategy
+- Backup important repositories
 
-\- Multi-platform deployment pipelines
+- Share projects across different platforms
 
-\- Cross-organization projects
-
-  
-
-\### For Education
-
-\- Demonstrate CI/CD concepts
-
-\- Show Git platform interoperability
-
-\- Teach automation workflows
-
-\- Project documentation example
+- Migrate gradually between services
 
   
 
-\## 🔄 How It Benefits Your DevOps Workflow
+### For Teams
+
+- Collaboration across different Git platforms
+
+- Disaster recovery strategy
+
+- Multi-platform deployment pipelines
+
+- Cross-organization projects
+
+
+### For Education
+
+- Demonstrate CI/CD concepts
+
+- Show Git platform interoperability
+
+- Teach automation workflows
+
+- Project documentation example
 
   
 
-\### Continuous Integration
+## 🔄 How It Benefits Your DevOps Workflow
 
-\`\`\`mermaid
+  
+
+### Continuous Integration
+
+```mermaid
 
 graph LR
 
-    A\[Local Commit\] --> B\[GitHub\]
+    A --> [Local Commit] --> B[GitHub]
 
-    B --> C\[GitHub Actions\]
+    B --> C[GitHub Actions]
 
-    C --> D\[Auto Sync\]
+    C --> D[Auto Sync]
 
-    D --> E\[GitLab\]
+    D --> E[GitLab]
 
-    E --> F\[GitLab CI/CD\]
+    E --> F[GitLab CI/CD]
 
-    F --> G\[Deployment\]
+    F --> G[Deployment]
 
-\`\`\`
-
-  
-
-\### Backup Strategy
-
-\- \*\*Primary\*\*: GitHub (main development)
-
-\- \*\*Secondary\*\*: GitLab (automatic backup)
-
-\- \*\*Recovery\*\*: Always available on both platforms
+```
 
   
 
-\## 📚 Learning Resources
+### Backup Strategy
+
+- **Primary**: GitHub (main development)
+
+- **Secondary**: GitLab (automatic backup)
+
+- **Recovery**: Always available on both platforms
 
   
 
-\### Git Platforms
-
-\- \[GitHub Actions Documentation\](https://docs.github.com/en/actions)
-
-\- \[GitLab CI/CD Documentation\](https://docs.gitlab.com/ee/ci/)
-
-\- \[Personal Access Tokens Guide\](https://docs.gitlab.com/ee/user/profile/personal\_access\_tokens.html)
+## 📚 Learning Resources
 
   
 
-\### Related Tools
+### Git Platforms
 
-\- \[Git Command Reference\](https://git-scm.com/docs)
+- [GitHub Actions Documentation\](https://docs.github.com/en/actions)
 
-\- \[YAML Syntax Guide\](https://yaml.org/spec/)
+- [GitLab CI/CD Documentation\](https://docs.gitlab.com/ee/ci/)
 
-\- \[DevOps Best Practices\](https://www.devops-research.com/)
+- [Personal Access Tokens Guide\](https://docs.gitlab.com/ee/user/profile/personal\_access\_tokens.html)
 
   
 
-\## 🤝 Contributing
+### Related Tools
+
+- [Git Command Reference\](https://git-scm.com/docs)
+
+- [YAML Syntax Guide\](https://yaml.org/spec/)
+
+- [DevOps Best Practices\](https://www.devops-research.com/)
+
+  
+
+## 🤝 Contributing
 
   
 
@@ -359,7 +357,7 @@ We welcome contributions! Here's how you can help:
 
   
 
-1\. \*\*Report bugs\*\* - Open an issue with detailed information
+1. \*\*Report bugs\*\* - Open an issue with detailed information
 
 2\. \*\*Suggest features\*\* - Share your ideas for improvement
 
