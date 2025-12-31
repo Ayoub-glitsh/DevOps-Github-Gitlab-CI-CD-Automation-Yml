@@ -592,7 +592,7 @@ git clone https://github.com/Ayoub-glitsh/DevOps-Github-Gitlab-CI-CD-Automation-
 
   
 
-Made with ❤️ by [Ayoub Aguezar](https://github.com/Ayoub-glitsh)
+Made by [Ayoub Aguezar](https://github.com/Ayoub-glitsh)
 
   
 
