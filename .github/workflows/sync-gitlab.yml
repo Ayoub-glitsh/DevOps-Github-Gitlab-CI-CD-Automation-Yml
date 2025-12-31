@@ -1,0 +1,39 @@
+name: 🚀 Sync to GitLab
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: 📥 Checkout code
+        uses: actions/checkout@v4
+        
+      - name: 🔧 Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.2'
+          
+      - name: 📦 Install dependencies
+        run: composer install --no-progress --prefer-dist
+        
+      - name: 🧪 Run tests
+        run: php artisan test
+        
+      - name: 🔄 Sync to GitLab
+        env:
+          GITLAB_URL: https://oauth2:${{ secrets.GITLAB_TOKEN }}@gitlab.com/${{ secrets.GITLAB_USERNAME }}/cinema-project-laravel.git
+        run: |
+          git remote add gitlab $GITLAB_URL
+          git push gitlab ${{ github.ref }}:${{ github.ref_name }} --tags
+          
+      - name: 🎉 Notify success
+        if: success()
+        run: |
+          echo "✅ Sync completed successfully!"
+          echo "GitLab URL: https://gitlab.com/${{ secrets.GITLAB_USERNAME }}/cinema-project-laravel"
