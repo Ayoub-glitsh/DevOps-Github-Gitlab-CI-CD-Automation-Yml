@@ -383,8 +383,7 @@ env:
 
 ### Continuous Integration
 
-```mermaid
-graph LR
+```
     A --> [Local Commit] --> B[GitHub]
     B --> C[GitHub Actions]
     C --> D[Auto Sync]
