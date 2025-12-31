@@ -339,20 +339,14 @@ on:
 ### Common Issues & Solutions
 
   
-
 | Problem | Solution |
-
 |---------|----------|
-
 | **Error: Access denied** | Regenerate GitLab token with correct scopes |
-
 | **Error: Repository not found** | Create the repository on GitLab first |
-
 | **Sync not triggering** | Check workflow file location and YAML syntax |
-
 | **Token expired** | Create new token and update GitHub secrets |
-
 | **Branch conflicts** | Use `--force` flag in push command |
+
 
   
 
