@@ -449,11 +449,11 @@ copies or substantial portions of the Software.
 
 \### Connect with the Author
 
-- \*\*GitHub\*\*: \[@Ayoub-glitsh\](https://github.com/Ayoub-glitsh)
+- **GitHub**: [@Ayoub-glitsh](https://github.com/Ayoub-glitsh)
 
-- \*\*GitLab\*\*: \[@ayoubaguezzar1\](https://gitlab.com/ayoubaguezzar1)
+- **GitLab**: [@ayoubaguezzar1](https://gitlab.com/ayoubaguezzar1)
 
-- **LinkedIn**: \[Your LinkedIn Profile\]
+- **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/ayoub-aguezar-a3b490338/)
 
   
 
@@ -487,7 +487,7 @@ If you find this project useful, please consider giving it a star! ⭐
 
   
 
-\---
+---
 
   
 
