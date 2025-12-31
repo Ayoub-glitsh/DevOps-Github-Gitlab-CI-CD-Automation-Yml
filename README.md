@@ -55,8 +55,7 @@ Automated synchronization system that mirrors GitHub repositories to GitLab in r
 2. Add two secrets:
 ```bash
 GITLAB_TOKEN: [your GitLab personal access token]
-
-GITLAB_USERNAME: [your GitLab username (optional)]
+GITLAB_USERNAME: [your GitLab username ]
 ```
 
 
@@ -230,27 +229,15 @@ jobs:
 #### Step 4: Test the Synchronization
 
 ```bash
-
 # Make a test commit
-
 echo "Test sync" >> test-file.txt
-
 git add test-file.txt
-
 git commit -m "test: testing GitHub to GitLab sync"
-
 git push origin main
-
-  
-
 \# Check the results:
-
 \# 1. Visit GitHub Actions tab in your repository
-
 \# 2. Watch the workflow execute
-
 \# 3. Visit your GitLab repository to see the mirrored commit
-
 ```
 
   
@@ -258,17 +245,13 @@ git push origin main
 ## 📁 Project Structure
 
 ```
-
 DevOps-Github-Gitlab-CI-CD-Automation-Yml/
 ├── .github/
 │   └── workflows/
 │       └── sync-gitlab.yml          # Main synchronization workflow
-├── docs/                            # Documentation (optional)
-├── examples/                        # Example configurations
 ├── README.md                        # This documentation
 ├── LICENSE                          # MIT License
 └── .gitignore                       # Git ignore rules
-
 ```
 
   
@@ -295,39 +278,20 @@ env:
 ### Advanced Workflow Features
 
 ```yaml
-
 # Sync all branches
-
 on:
-
   push:
-
     branches: [main, develop, feature/*]
-
-  
-
 # Include tags
-
 steps:
-
   - run: git push --tags gitlab
-
-  
-
 \# Manual trigger
-
 on:
-
   workflow\_dispatch:
-
     inputs:
-
       branch:
-
         description: 'Branch to sync'
-
         required: true
-
 ```
 
   
@@ -355,11 +319,8 @@ on:
 Add this to your workflow to see detailed logs:
 
 ```yaml
-
 env:
-
   ACTIONS_STEP_DEBUG: true
-
   ACTIONS_RUNNER_DEBUG: true
 ```
 
@@ -423,21 +384,13 @@ env:
 ### Continuous Integration
 
 ```mermaid
-
 graph LR
-
     A --> [Local Commit] --> B[GitHub]
-
     B --> C[GitHub Actions]
-
     C --> D[Auto Sync]
-
     D --> E[GitLab]
-
     E --> F[GitLab CI/CD]
-
     F --> G[Deployment]
-
 ```
 
   
@@ -515,15 +468,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
   
 
 ```
-
 MIT License
-
-  
-
 Copyright (c) 2024 Ayoub Aguezar
-
-  
-
 Permission is hereby granted, free of charge, to any person obtaining a copy
 
 of this software and associated documentation files (the "Software"), to deal
@@ -535,13 +481,8 @@ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
 
 furnished to do so, subject to the following conditions:
-
-  
-
 The above copyright notice and this permission notice shall be included in all
-
 copies or substantial portions of the Software.
-
 ```
 
   
