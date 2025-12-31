@@ -532,33 +532,3 @@ Made with ❤️ by [Ayoub Aguezar](https://github.com/Ayoub-glitsh)
 
   
 
-## **🎨 Pour améliorer encore ton README :**
-
-  
-
-### **Ajoute ces badges (optionnel) :**
-
-```markdown
-![GitHub last commit](https://img.shields.io/github/last-commit/Ayoub-glitsh/DevOps-Github-Gitlab-CI-CD-Automation-Yml)
-![GitHub repo size](https://img.shields.io/github/repo-size/Ayoub-glitsh/DevOps-Github-Gitlab-CI-CD-Automation-Yml)
-![GitHub License](https://img.shields.io/github/license/Ayoub-glitsh/DevOps-Github-Gitlab-CI-CD-Automation-Yml)
-```
-
-  
-
-### **Ajoute un tableau des matières :**
-
-```markdown
-## 📑 Table of Contents
--[Overview](#overview)
--[Features](#features)
--[Demo](#demo)
--[Quick Start](#quick-start)
--[Configuration](#configuration)
-- [Troubleshooting](#troubleshooting)
-- [License](#license)
-```
-
-  
-
-
