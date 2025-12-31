@@ -72,7 +72,7 @@ Create `.github/workflows/sync-gitlab.yml` with the following content:
 
 name: 🔄 Sync to GitLab
 
-on: \[push, pull\_request\]
+on: [push, pull_request]
 
 jobs:
 
@@ -94,11 +94,11 @@ jobs:
 
   
 
-\#### Step 4: Test the Synchronization
+#### Step 4: Test the Synchronization
 
-\`\`\`bash
+```bash
 
-\# Make a test commit
+# Make a test commit
 
 echo "Test sync" >> test-file.txt
 
@@ -118,75 +118,62 @@ git push origin main
 
 \# 3. Visit your GitLab repository to see the mirrored commit
 
-\`\`\`
+```
 
   
 
-\## 📁 Project Structure
+## 📁 Project Structure
 
-\`\`\`
+```
 
 DevOps-Github-Gitlab-CI-CD-Automation-Yml/
-
 ├── .github/
-
 │   └── workflows/
-
 │       └── sync-gitlab.yml          # Main synchronization workflow
-
 ├── docs/                            # Documentation (optional)
-
 ├── examples/                        # Example configurations
-
 ├── README.md                        # This documentation
-
 ├── LICENSE                          # MIT License
-
 └── .gitignore                       # Git ignore rules
 
-\`\`\`
+```
 
   
 
-\## 🔧 Configuration Options
+## 🔧 Configuration Options
 
   
 
-\### Customize for Your Project
+### Customize for Your Project
 
 Modify the workflow file with your specific details:
 
   
 
-\`\`\`yaml
-
+```yaml
 env:
-
-  GITLAB\_USER: "your-gitlab-username"
-
-  GITLAB\_PROJECT: "your-gitlab-project-name"
-
-  BRANCHES: "main develop feature/\*"  # Branches to sync
-
-\`\`\`
+  GITLAB_USER: "your-gitlab-username"
+  GITLAB_PROJECT: "your-gitlab-project-name"
+  BRANCHES: "main develop feature/*"  # Branches to sync
+```
 
   
 
-\### Advanced Workflow Features
+### Advanced Workflow Features
 
-\`\`\`yaml
+```yaml
 
-\# Sync all branches
+# Sync all branches
 
 on:
 
   push:
 
-    branches: \[main, develop, feature/\*\]
+    branches: [main, develop, feature/*]
 
   
 
-\# Include tags
+# Include tags
 
 steps:
 
