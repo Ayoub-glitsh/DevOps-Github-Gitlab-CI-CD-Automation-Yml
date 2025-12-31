@@ -357,17 +357,17 @@ We welcome contributions! Here's how you can help:
 
   
 
-1. \*\*Report bugs\*\* - Open an issue with detailed information
+1. **Report bugs** - Open an issue with detailed information
 
-2\. \*\*Suggest features\*\* - Share your ideas for improvement
+2. **Suggest features** - Share your ideas for improvement
 
-3\. \*\*Submit code\*\* - Fork the repo and create a pull request
+3. **Submit code** - Fork the repo and create a pull request
 
-4\. \*\*Improve docs\*\* - Help make the documentation better
+4. **Improve docs** - Help make the documentation better
 
   
 
-\### Contribution Guidelines
+### Contribution Guidelines
 
 \- Follow the existing code style
 
