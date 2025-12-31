@@ -555,70 +555,17 @@ Made with ❤️ by \[Ayoub A.\](https://github.com/Ayoub-glitsh)
 
 \### \*\*Ajoute un tableau des matières :\*\*
 
-\`\`\`markdown
-
-\## 📑 Table of Contents
-
-\- \[Overview\](#overview)
-
-\- \[Features\](#features)
-
-\- \[Demo\](#demo)
-
-\- \[Quick Start\](#quick-start)
-
-\- \[Configuration\](#configuration)
-
-\- \[Troubleshooting\](#troubleshooting)
-
-\- \[License\](#license)
-
-\`\`\`
+```markdown
+## 📑 Table of Contents
+-[Overview](#overview)
+-[Features](#features)
+-[Demo](#demo)
+-[Quick Start](#quick-start)
+-[Configuration](#configuration)
+- [Troubleshooting](#troubleshooting)
+- [License](#license)
+```
 
   
 
-\### \*\*Pour un effet visuel, ajoute des ASCII art :\*\*
 
-\`\`\`markdown
-
-\`\`\`
-
-   \_\_\_\_\_ \_ \_     \_     \_\_\_\_\_ \_ \_         \_\_\_\_\_ \_\_\_\_\_ \_\_\_\_  
-
-  / \_\_\_\_(\_) |   | |   |\_   \_| | |       / \_\_\_\_|\_   \_/ \_\_ \\ 
-
- | |  \_\_ \_| |\_  | |     | | | | |\_\_\_\_\_\_| |  \_\_  | || |  | |
-
- | | |\_ | | \_\_| | |     | | | | |\_\_\_\_\_\_| | |\_ | | || |  | |
-
- | |\_\_| | | |\_  | |\_\_\_\_ \_| |\_| | |     | |\_\_| |\_| || |\_\_| |
-
-  \\\_\_\_\_\_|\_|\\\_\_| |\_\_\_\_\_\_|\_\_\_\_\_|\_|\_|      \\\_\_\_\_\_|\_\_\_\_\_\\\_\_\_\_/ 
-
-\`\`\`
-
-\`\`\`
-
-  
-
-\---
-
-  
-
-\*\*Ton README est maintenant complet et professionnel !\*\* 🎯
-
-  
-
-\*\*Points forts :\*\*
-
-\- ✅ Instructions claires étape par étape
-
-\- ✅ Liens vers tes projets spécifiques
-
-\- ✅ Section troubleshooting utile
-
-\- ✅ Licence MIT incluse
-
-\- ✅ Visuellement attractif avec badges
-
-\- ✅ Parfait pour un projet scolaire/portfolio
