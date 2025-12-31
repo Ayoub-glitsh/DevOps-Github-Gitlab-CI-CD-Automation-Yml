@@ -449,15 +449,15 @@ copies or substantial portions of the Software.
 
 \### Connect with the Author
 
-\- \*\*GitHub\*\*: \[@Ayoub-glitsh\](https://github.com/Ayoub-glitsh)
+- \*\*GitHub\*\*: \[@Ayoub-glitsh\](https://github.com/Ayoub-glitsh)
 
-\- \*\*GitLab\*\*: \[@ayoubaguezzar1\](https://gitlab.com/ayoubaguezzar1)
+- \*\*GitLab\*\*: \[@ayoubaguezzar1\](https://gitlab.com/ayoubaguezzar1)
 
-\- \*\*LinkedIn\*\*: \[Your LinkedIn Profile\]
+- **LinkedIn**: \[Your LinkedIn Profile\]
 
   
 
-\## 🌟 Star History
+## 🌟 Star History
 
   
 
@@ -465,7 +465,25 @@ If you find this project useful, please consider giving it a star! ⭐
 
   
 
-\[!\[Star History Chart\](https://api.star-history.com/svg?repos=Ayoub-glitsh/DevOps-Github-Gitlab-CI-CD-Automation-Yml&type=Date)\](https://star-history.com/#Ayoub-glitsh/DevOps-Github-Gitlab-CI-CD-Automation-Yml&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=Ayoub-glitsh/DevOps-Github-Gitlab-CI-CD-Automation-Yml&type=Date)](https://star-history.com/#Ayoub-glitsh/DevOps-Github-Gitlab-CI-CD-Automation-Yml&Date)
+
+  
+
+---
+
+  
+
+## 🚀 Quick Links
+
+  
+
+- **Live Demo**: [GitHub Actions Logs](https://github.com/Ayoub-glitsh/DevOps-Github-Gitlab-CI-CD-Automation-Yml/actions)
+
+- **Mirrored Repo**: [GitLab Project](https://gitlab.com/ayoubaguezzar1/devops-github-gitlab-ci-cd-automation-yml)
+
+- **Source Code**: [GitHub Repository](https://github.com/Ayoub-glitsh/DevOps-Github-Gitlab-CI-CD-Automation-Yml)
+
+- **Documentation**: [This README](#)
 
   
 
@@ -473,87 +491,62 @@ If you find this project useful, please consider giving it a star! ⭐
 
   
 
-\## 🚀 Quick Links
-
-  
-
-\- \*\*Live Demo\*\*: \[GitHub Actions Logs\](https://github.com/Ayoub-glitsh/DevOps-Github-Gitlab-CI-CD-Automation-Yml/actions)
-
-\- \*\*Mirrored Repo\*\*: \[GitLab Project\](https://gitlab.com/ayoubaguezzar1/devops-github-gitlab-ci-cd-automation-yml)
-
-\- \*\*Source Code\*\*: \[GitHub Repository\](https://github.com/Ayoub-glitsh/DevOps-Github-Gitlab-CI-CD-Automation-Yml)
-
-\- \*\*Documentation\*\*: \[This README\](#)
-
-  
-
-\---
-
-  
-
 
 
 
   
 
-\### ⚡ \*\*Get Started Now!\*\*
+### ⚡ **Get Started Now!**
 
   
 
-\`\`\`bash
-
+```bash
 git clone https://github.com/Ayoub-glitsh/DevOps-Github-Gitlab-CI-CD-Automation-Yml.git
-
-\`\`\`
-
-  
-
-\*\*Automate your workflow today!\*\* 🚀
+```
 
   
 
-\---
+**Automate your workflow today!** 🚀
 
   
 
-Made with ❤️ by \[Ayoub A.\](https://github.com/Ayoub-glitsh)
+---
 
   
 
-\*If this project helped you, please give it a ⭐\*
+Made with ❤️ by [Ayoub Aguezar](https://github.com/Ayoub-glitsh)
+
+  
+
+*If this project helped you, please give it a ⭐*
 
   
 
 
 
 
-\`\`\`
 
   
 
-\---
+---
 
   
 
-\## \*\*🎨 Pour améliorer encore ton README :\*\*
+## **🎨 Pour améliorer encore ton README :**
 
   
 
-\### \*\*Ajoute ces badges (optionnel) :\*\*
+### **Ajoute ces badges (optionnel) :**
 
-\`\`\`markdown
-
-!\[GitHub last commit\](https://img.shields.io/github/last-commit/Ayoub-glitsh/DevOps-Github-Gitlab-CI-CD-Automation-Yml)
-
-!\[GitHub repo size\](https://img.shields.io/github/repo-size/Ayoub-glitsh/DevOps-Github-Gitlab-CI-CD-Automation-Yml)
-
-!\[GitHub License\](https://img.shields.io/github/license/Ayoub-glitsh/DevOps-Github-Gitlab-CI-CD-Automation-Yml)
-
-\`\`\`
+```markdown
+![GitHub last commit](https://img.shields.io/github/last-commit/Ayoub-glitsh/DevOps-Github-Gitlab-CI-CD-Automation-Yml)
+![GitHub repo size](https://img.shields.io/github/repo-size/Ayoub-glitsh/DevOps-Github-Gitlab-CI-CD-Automation-Yml)
+![GitHub License](https://img.shields.io/github/license/Ayoub-glitsh/DevOps-Github-Gitlab-CI-CD-Automation-Yml)
+```
 
   
 
-\### \*\*Ajoute un tableau des matières :\*\*
+### **Ajoute un tableau des matières :**
 
 ```markdown
 ## 📑 Table of Contents
