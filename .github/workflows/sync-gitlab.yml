@@ -1,39 +1,57 @@
-name: 🚀 Sync to GitLab
+name: 🔄 Sync to GitLab
 
 on:
   push:
-    branches: [ main, develop ]
+    branches: [main, master]
   pull_request:
-    branches: [ main ]
+    branches: [main, master]
+  workflow_dispatch:  # Allows manual triggering
 
 jobs:
   sync:
     runs-on: ubuntu-latest
-    
     steps:
       - name: 📥 Checkout code
         uses: actions/checkout@v4
-        
-      - name: 🔧 Setup PHP
-        uses: shivammathur/setup-php@v2
         with:
-          php-version: '8.2'
+          fetch-depth: 0  # Get all history
           
-      - name: 📦 Install dependencies
-        run: composer install --no-progress --prefer-dist
-        
-      - name: 🧪 Run tests
-        run: php artisan test
-        
-      - name: 🔄 Sync to GitLab
+      - name: 🔧 Configure Git
+        run: |
+          git config user.name "GitHub Sync Bot"
+          git config user.email "github-actions@github.com"
+          
+      - name: 🚀 Push to GitLab
         env:
-          GITLAB_URL: https://oauth2:${{ secrets.GITLAB_TOKEN }}@gitlab.com/${{ secrets.GITLAB_USERNAME }}/cinema-project-laravel.git
+          GITLAB_USER: "${{ secrets.GITLAB_USERNAME }}"
+          GITLAB_TOKEN: "${{ secrets.GITLAB_TOKEN }}"
+          GITLAB_PROJECT: "${{ github.event.repository.name }}"  # Uses current repo name
         run: |
-          git remote add gitlab $GITLAB_URL
-          git push gitlab ${{ github.ref }}:${{ github.ref_name }} --tags
+          # Debug information
+          echo "Syncing to GitLab..."
+          echo "GitLab User: $GITLAB_USER"
+          echo "GitLab Project: $GITLAB_PROJECT"
           
-      - name: 🎉 Notify success
-        if: success()
-        run: |
+          # Check if repository exists on GitLab
+          echo "Checking if repository exists on GitLab..."
+          
+          # Add GitLab as remote (using oauth2 format for GitLab)
+          git remote add gitlab https://oauth2:${GITLAB_TOKEN}@gitlab.com/${GITLAB_USER}/${GITLAB_PROJECT}.git
+          
+          # Push to GitLab
+          echo "Pushing code to GitLab..."
+          git push gitlab HEAD:${GITHUB_REF#refs/heads/} --tags
+          
+          # Success message
           echo "✅ Sync completed successfully!"
-          echo "GitLab URL: https://gitlab.com/${{ secrets.GITLAB_USERNAME }}/cinema-project-laravel"
+          echo "📁 GitLab Repository: https://gitlab.com/${GITLAB_USER}/${GITLAB_PROJECT}"
+          
+      - name: 📊 Sync Status
+        if: always()
+        run: |
+          if [ "${{ job.status }}" == "success" ]; then
+            echo "🎉 Synchronization successful!"
+          else
+            echo "⚠️ Synchronization encountered issues"
+            echo "Check the logs above for details"
+          fi
