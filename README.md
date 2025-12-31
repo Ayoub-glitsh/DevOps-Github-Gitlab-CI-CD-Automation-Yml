@@ -28,7 +28,7 @@ Automated synchronization system that mirrors GitHub repositories to GitLab in r
 ## 📸 Demo
 | GitHub Commit | GitLab Mirror |
 |--------------|---------------|
-| ![GitHub Commit](https://github.com/Ayoub-glitsh/DevOps-Github-Gitlab-CI-CD-Automation-Yml) | ![GitLab Mirror](https://gitlab.com/ayoubaguezzar1/devops-github-gitlab-ci-cd-automation-yml#) |
+| [GitHub Commit](https://github.com/Ayoub-glitsh/DevOps-Github-Gitlab-CI-CD-Automation-Yml) | [GitLab Mirror](https://gitlab.com/ayoubaguezzar1/devops-github-gitlab-ci-cd-automation-yml#) |
 
 ## 🛠️ How It Works
 1. **GitHub Action triggers** on push events
