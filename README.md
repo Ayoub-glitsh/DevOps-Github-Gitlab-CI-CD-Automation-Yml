@@ -369,31 +369,31 @@ We welcome contributions! Here's how you can help:
 
 ### Contribution Guidelines
 
-\- Follow the existing code style
+- Follow the existing code style
 
-\- Add tests for new features
+- Add tests for new features
 
-\- Update documentation as needed
+- Update documentation as needed
 
-\- Keep commits clean and descriptive
-
-  
-
-\## 📝 License
+- Keep commits clean and descriptive
 
   
 
-This project is licensed under the MIT License - see the \[LICENSE\](LICENSE) file for details.
+## 📝 License
 
   
 
-\`\`\`
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+  
+
+```
 
 MIT License
 
   
 
-Copyright (c) 2024 Ayoub A.
+Copyright (c) 2024 Ayoub Aguezar
 
   
 
@@ -415,39 +415,39 @@ The above copyright notice and this permission notice shall be included in all
 
 copies or substantial portions of the Software.
 
-\`\`\`
+```
 
   
 
-\## 🙏 Acknowledgments
+## 🙏 Acknowledgments
 
   
 
-\- \*\*GitHub Team\*\* for creating GitHub Actions
+- **GitHub Team** for creating GitHub Actions
 
-\- \*\*GitLab Team\*\* for their comprehensive API
+- **GitLab Team** for their comprehensive API
 
-\- \*\*Open Source Community\*\* for inspiration and tools
+- **Open Source Community** for inspiration and tools
 
-\- \*\*Educators\*\* for teaching DevOps principles
-
-  
-
-\## 📞 Support & Contact
+- **Educators** for teaching DevOps principles
 
   
 
-\### For Technical Issues
-
-\- 📧 \*\*Email\*\*: \[Your email or contact form\]
-
-\- 🐛 \*\*GitHub Issues\*\*: \[Repository Issues Page\](https://github.com/Ayoub-glitsh/DevOps-Github-Gitlab-CI-CD-Automation-Yml/issues)
-
-\- 💬 \*\*Discussion\*\*: GitHub Discussions (if enabled)
+## 📞 Support & Contact
 
   
 
-\### Connect with the Author
+### For Technical Issues
+
+- 📧 **Email**: ayoubaguezzar1@gmail.com
+
+- 🐛 **GitHub Issues**: [Repository Issues Page](https://github.com/Ayoub-glitsh/DevOps-Github-Gitlab-CI-CD-Automation-Yml/issues)
+
+- 💬 **Discussion**: GitHub Discussions 
+
+  
+
+### Connect with the Author
 
 - **GitHub**: [@Ayoub-glitsh](https://github.com/Ayoub-glitsh)
 
