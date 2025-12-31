@@ -1,3 +1,14 @@
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&pause=500&color=00FF00&background=000000&center=true&vCenter=true&width=700&lines=DevOps-Github-Gitlab-CI-CD-Automation-Yml" />
+</p>
+
+
+
+
+
+
+
 # 🔄 GitHub to GitLab Auto-Sync
  
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
