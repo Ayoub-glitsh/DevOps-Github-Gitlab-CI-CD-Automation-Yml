@@ -35,42 +35,40 @@ Automated synchronization system that mirrors GitHub repositories to GitLab in r
 ### Installation Steps
 
 #### Step 1: Create GitLab Token
-```bash
+
 1. Go to GitLab → Settings → Access Tokens
 2. Create token with `api` and `write_repository` scopes
 3. Copy the token (it appears only once!)
 
 
 
-\# \*\*📄 README.md - Suite et fin\*\*
+
 
   
 
-\`\`\`markdown
 
-\#### Step 2: Configure GitHub Secrets
+#### Step 2: Configure GitHub Secrets
 
-\`\`\`bash
 
-1\. Go to your GitHub repo → Settings → Secrets → Actions
+1. Go to your GitHub repo → Settings → Secrets → Actions
 
-2\. Add two secrets:
+2. Add two secrets:
+```bash
+GITLAB_TOKEN: [your GitLab personal access token]
 
-   - GITLAB\_TOKEN: \[your GitLab personal access token\]
+GITLAB_USERNAME: [your GitLab username (optional)]
+```
 
-   - GITLAB\_USERNAME: \[your GitLab username (optional)\]
-
-\`\`\`
 
   
 
-\#### Step 3: Add Workflow File
+#### Step 3: Add Workflow File
 
-Create \`.github/workflows/sync-gitlab.yml\` with the following content:
+Create `.github/workflows/sync-gitlab.yml` with the following content:
 
   
 
-\`\`\`yaml
+```yaml
 
 name: 🔄 Sync to GitLab
 
@@ -92,7 +90,7 @@ jobs:
 
           git push gitlab HEAD:${{ github.ref\_name }}
 
-\`\`\`
+```
 
   
 
