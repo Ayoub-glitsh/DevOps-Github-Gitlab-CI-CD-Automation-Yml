@@ -3,6 +3,17 @@
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&pause=500&color=00FF00&background=000000&center=true&vCenter=true&width=700&lines=DevOps-Github-Gitlab-CI-CD-Automation-Yml" />
 </p>
 
+<p align="center">
+  <img src="img/github_01.png" alt="DevOps Banner" >
+</p>
+<p align="center">
+  <img src="img/github_02.png" alt="DevOps Banner" >
+</p>
+<p align="center">
+  <img src="img/github_03.png" alt="DevOps Banner" >
+</p>
+
+
 
 
 
