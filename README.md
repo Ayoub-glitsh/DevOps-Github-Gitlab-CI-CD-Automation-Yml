@@ -20,6 +20,8 @@
 
 
 
+
+
 # 🔄 GitHub to GitLab Auto-Sync
  
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
@@ -40,6 +42,7 @@ Automated synchronization system that mirrors GitHub repositories to GitLab in r
 | GitHub Commit | GitLab Mirror |
 |--------------|---------------|
 | [GitHub Commit](https://github.com/Ayoub-glitsh/DevOps-Github-Gitlab-CI-CD-Automation-Yml) | [GitLab Mirror](https://gitlab.com/ayoubaguezzar1/devops-github-gitlab-ci-cd-automation-yml#) |
+| [GitHub Commit](https://github.com/Ayoub-glitsh/cinema-project-laravel) | [GitLab Mirror](https://gitlab.com/ayoubaguezzar1/cinema-project-laravel) |
 
 ## 🛠️ How It Works
 1. **GitHub Action triggers** on push events
