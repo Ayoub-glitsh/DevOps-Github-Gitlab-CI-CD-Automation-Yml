@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-  <img src="img/github_01.png" alt="DevOps Banner" >
+  <img src="img/github_01.png" alt="DevOps Banner" > 
 </p>
 <p align="center">
   <img src="img/github_02.png" alt="DevOps Banner" >
